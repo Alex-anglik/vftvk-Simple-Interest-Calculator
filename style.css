@@ -6,6 +6,18 @@ h1{color:grey;font-family:verdana}
     width:300px;
     padding:20px;
     border-radius:25px;
-    margin: auto
+    margin:auto
 }
 
+.principal{
+    background-color: yellow;
+}
+.rate {
+    background-color: yellow;
+}
+.amount{
+    background-color: yellow;
+}
+.year{
+    background-color: yellow;
+}
