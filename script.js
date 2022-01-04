@@ -17,3 +17,8 @@ function updateRate(){
     document.getElementById("rate_val").innerText=rateval+"%";
 
 }
+function verify(input){
+        if (input<1){
+            alert("Enter a positive number");
+        }
+}

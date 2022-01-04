@@ -1,5 +1,5 @@
 <!Doctype html>
-<title> Coursera project</title>
+<title>Web App - Simple Interest Calculator</title>
 <html>
     <head>
     <script src="script.js"></script>
@@ -9,7 +9,7 @@
         <div class= "maindiv">
             <h1>Simple Interest Calculator</h1>
 
-            Amount <input type="number"  id="principal">  <br/>
+            Amount <input type="number"  id="principal" >  <br/>
             Rate <input type="range"  id="rate" min="1" max="20" value="10.25" step="0.25" onchange="updateRate()"> <span id="rate_val" >10.25%</span>  <br/>
             
             No. of Years <select id="years">
@@ -27,17 +27,13 @@
               </select>  <br/>
             Interest : <span id="result"></span><br>
 
-            <button onclick="compute()">Compute Interest</button>
+            <button  onclick="compute()" >Compute Interest</button> 
             <span id="result">
 
-            </span>
+            </span><br/>
+            &#169; Everyone Can Get Rich 
         </div>
     </body>
-    <footer>
-
-        &#169; This Calculator belongs to alex sharman
-
-
-	</footer>
+    
 </html>
 
